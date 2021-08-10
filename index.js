@@ -139,12 +139,3 @@ class Select {
 		);
   };
 }
-
-const select = new Select({
-	selector: '#select',
-	label: 'Выберите из списка',
-	url: 'https://jsonplaceholder.typicode.com/todos',
-	onSelect(selectedItem) {
-		console.log(`Выбран элемент с названием '${selectedItem}'`)
-	}
-})
